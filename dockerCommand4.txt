@@ -1,5 +1,5 @@
 docker run \
-  --name jenkins-blueocean \
+  --name my jenkins-blueocean:2.462.2-1 \
   --restart=on-failure \
   --detach \
   --network jenkins \
